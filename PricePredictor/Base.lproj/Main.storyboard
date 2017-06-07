@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.17" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.14"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Solar Panels" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RNs-UW-v8A">
+                                <rect key="frame" x="27" y="42" width="313" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uAh-8P-RP7">
+                                <rect key="frame" x="27" y="71" width="313" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Greenhouses" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZRq-Qg-NoN">
+                                <rect key="frame" x="27" y="126" width="312" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dtc-WG-P1C">
+                                <rect key="frame" x="27" y="155" width="313" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Acres" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ebZ-hO-3Wt">
+                                <rect key="frame" x="27" y="206" width="312" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iJe-9f-XP5">
+                                <rect key="frame" x="27" y="235" width="313" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6mb-sn-Vup">
+                                <rect key="frame" x="27" y="275" width="312" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="mRK-gA-Xov"/>
+                                </constraints>
+                                <state key="normal" title="预算"/>
+                                <connections>
+                                    <action selector="doPredicateAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Rls-5w-bKG"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="预算价格（百万单位）：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fzR-i2-QOg">
+                                <rect key="frame" x="28" y="334" width="312" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="iJe-9f-XP5" firstAttribute="top" secondItem="ebZ-hO-3Wt" secondAttribute="bottom" constant="8" id="0x8-pn-Wit"/>
+                            <constraint firstItem="dtc-WG-P1C" firstAttribute="top" secondItem="ZRq-Qg-NoN" secondAttribute="bottom" constant="8" id="20Z-GZ-w2E"/>
+                            <constraint firstItem="uAh-8P-RP7" firstAttribute="top" secondItem="RNs-UW-v8A" secondAttribute="bottom" constant="8" id="5Ig-XE-8TO"/>
+                            <constraint firstAttribute="trailing" secondItem="fzR-i2-QOg" secondAttribute="trailing" constant="35" id="5hk-KS-H7t"/>
+                            <constraint firstItem="RNs-UW-v8A" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="27" id="9Sd-1x-V8d"/>
+                            <constraint firstAttribute="trailing" secondItem="ZRq-Qg-NoN" secondAttribute="trailing" constant="36" id="D8u-79-GQh"/>
+                            <constraint firstItem="ZRq-Qg-NoN" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="27" id="DdP-S2-OzM"/>
+                            <constraint firstItem="iJe-9f-XP5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="27" id="Fgg-XO-aFU"/>
+                            <constraint firstItem="iJe-9f-XP5" firstAttribute="top" secondItem="ebZ-hO-3Wt" secondAttribute="bottom" constant="8" id="JJf-93-C9f"/>
+                            <constraint firstItem="ebZ-hO-3Wt" firstAttribute="top" secondItem="dtc-WG-P1C" secondAttribute="bottom" constant="21" id="Kj6-3X-3Ne"/>
+                            <constraint firstItem="uAh-8P-RP7" firstAttribute="top" secondItem="RNs-UW-v8A" secondAttribute="bottom" constant="8" id="Nw6-bN-P1K"/>
+                            <constraint firstAttribute="trailing" secondItem="dtc-WG-P1C" secondAttribute="trailing" constant="35" id="RCX-gZ-TwH"/>
+                            <constraint firstAttribute="trailing" secondItem="uAh-8P-RP7" secondAttribute="trailing" constant="35" id="U0u-iD-PZg"/>
+                            <constraint firstItem="6mb-sn-Vup" firstAttribute="top" secondItem="iJe-9f-XP5" secondAttribute="bottom" constant="10" id="WJ5-c3-F72"/>
+                            <constraint firstItem="ebZ-hO-3Wt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="27" id="XAK-Gf-pKc"/>
+                            <constraint firstAttribute="trailing" secondItem="6mb-sn-Vup" secondAttribute="trailing" constant="36" id="Z7P-BZ-sls"/>
+                            <constraint firstItem="fzR-i2-QOg" firstAttribute="top" secondItem="6mb-sn-Vup" secondAttribute="bottom" constant="29" id="ZoC-ed-VSp"/>
+                            <constraint firstItem="ZRq-Qg-NoN" firstAttribute="top" secondItem="uAh-8P-RP7" secondAttribute="bottom" constant="25" id="a4N-Fe-QGf"/>
+                            <constraint firstItem="RNs-UW-v8A" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="22" id="dlH-yF-Dx3"/>
+                            <constraint firstItem="ZRq-Qg-NoN" firstAttribute="top" secondItem="uAh-8P-RP7" secondAttribute="bottom" constant="25" id="dr5-sK-6d3"/>
+                            <constraint firstItem="6mb-sn-Vup" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="27" id="gwc-00-pet"/>
+                            <constraint firstItem="ebZ-hO-3Wt" firstAttribute="top" secondItem="dtc-WG-P1C" secondAttribute="bottom" constant="21" id="iGi-z4-8Wv"/>
+                            <constraint firstItem="dtc-WG-P1C" firstAttribute="top" secondItem="ZRq-Qg-NoN" secondAttribute="bottom" constant="8" id="k9A-LQ-4in"/>
+                            <constraint firstItem="uAh-8P-RP7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="27" id="nDx-7K-gHe"/>
+                            <constraint firstItem="dtc-WG-P1C" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="27" id="ta4-yP-w1J"/>
+                            <constraint firstAttribute="trailing" secondItem="iJe-9f-XP5" secondAttribute="trailing" constant="35" id="vsd-Sr-X7X"/>
+                            <constraint firstItem="fzR-i2-QOg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="28" id="wg3-Bm-88a"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="acresTextField" destination="iJe-9f-XP5" id="sn1-O3-POV"/>
+                        <outlet property="greenhouseTextField" destination="dtc-WG-P1C" id="Gd8-5U-UW8"/>
+                        <outlet property="predicationLbl" destination="fzR-i2-QOg" id="IGK-Tl-X3o"/>
+                        <outlet property="solarTextFiled" destination="uAh-8P-RP7" id="yC6-GA-plT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140" y="137.18140929535232"/>
+        </scene>
+    </scenes>
+</document>

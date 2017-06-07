@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		427CA7011EE7977200273973 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 427CA7001EE7977200273973 /* AppDelegate.m */; };
+		427CA7041EE7977200273973 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 427CA7031EE7977200273973 /* ViewController.m */; };
+		427CA7071EE7977200273973 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 427CA7051EE7977200273973 /* Main.storyboard */; };
+		427CA7091EE7977200273973 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 427CA7081EE7977200273973 /* Assets.xcassets */; };
+		427CA70C1EE7977200273973 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 427CA70A1EE7977200273973 /* LaunchScreen.storyboard */; };
+		427CA70F1EE7977200273973 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 427CA70E1EE7977200273973 /* main.m */; };
+		427CA7191EE7977300273973 /* PricePredictorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 427CA7181EE7977300273973 /* PricePredictorTests.m */; };
+		427CA7241EE7977300273973 /* PricePredictorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 427CA7231EE7977300273973 /* PricePredictorUITests.m */; };
+		427CA7391EE79D7B00273973 /* MarsHabitatPricer.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 427CA7341EE7987F00273973 /* MarsHabitatPricer.mlmodel */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		427CA7151EE7977300273973 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 427CA6F41EE7977200273973 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 427CA6FB1EE7977200273973;
+			remoteInfo = PricePredictor;
+		};
+		427CA7201EE7977300273973 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 427CA6F41EE7977200273973 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 427CA6FB1EE7977200273973;
+			remoteInfo = PricePredictor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		427CA6FC1EE7977200273973 /* PricePredictor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PricePredictor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		427CA6FF1EE7977200273973 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		427CA7001EE7977200273973 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		427CA7021EE7977200273973 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		427CA7031EE7977200273973 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		427CA7061EE7977200273973 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		427CA7081EE7977200273973 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		427CA70B1EE7977200273973 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		427CA70D1EE7977200273973 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		427CA70E1EE7977200273973 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		427CA7141EE7977300273973 /* PricePredictorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PricePredictorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		427CA7181EE7977300273973 /* PricePredictorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PricePredictorTests.m; sourceTree = "<group>"; };
+		427CA71A1EE7977300273973 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		427CA71F1EE7977300273973 /* PricePredictorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PricePredictorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		427CA7231EE7977300273973 /* PricePredictorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PricePredictorUITests.m; sourceTree = "<group>"; };
+		427CA7251EE7977300273973 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		427CA7321EE797F900273973 /* CoreML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreML.framework; path = System/Library/Frameworks/CoreML.framework; sourceTree = SDKROOT; };
+		427CA7341EE7987F00273973 /* MarsHabitatPricer.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MarsHabitatPricer.mlmodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		427CA6F91EE7977200273973 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		427CA7111EE7977300273973 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		427CA71C1EE7977300273973 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		427CA6F31EE7977200273973 = {
+			isa = PBXGroup;
+			children = (
+				427CA6FE1EE7977200273973 /* PricePredictor */,
+				427CA7171EE7977300273973 /* PricePredictorTests */,
+				427CA7221EE7977300273973 /* PricePredictorUITests */,
+				427CA6FD1EE7977200273973 /* Products */,
+				427CA7311EE797F900273973 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		427CA6FD1EE7977200273973 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				427CA6FC1EE7977200273973 /* PricePredictor.app */,
+				427CA7141EE7977300273973 /* PricePredictorTests.xctest */,
+				427CA71F1EE7977300273973 /* PricePredictorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		427CA6FE1EE7977200273973 /* PricePredictor */ = {
+			isa = PBXGroup;
+			children = (
+				427CA7331EE7981400273973 /* Resource */,
+				427CA6FF1EE7977200273973 /* AppDelegate.h */,
+				427CA7001EE7977200273973 /* AppDelegate.m */,
+				427CA7021EE7977200273973 /* ViewController.h */,
+				427CA7031EE7977200273973 /* ViewController.m */,
+				427CA7051EE7977200273973 /* Main.storyboard */,
+				427CA7081EE7977200273973 /* Assets.xcassets */,
+				427CA70A1EE7977200273973 /* LaunchScreen.storyboard */,
+				427CA70D1EE7977200273973 /* Info.plist */,
+				427CA70E1EE7977200273973 /* main.m */,
+			);
+			path = PricePredictor;
+			sourceTree = "<group>";
+		};
+		427CA7171EE7977300273973 /* PricePredictorTests */ = {
+			isa = PBXGroup;
+			children = (
+				427CA7181EE7977300273973 /* PricePredictorTests.m */,
+				427CA71A1EE7977300273973 /* Info.plist */,
+			);
+			path = PricePredictorTests;
+			sourceTree = "<group>";
+		};
+		427CA7221EE7977300273973 /* PricePredictorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				427CA7231EE7977300273973 /* PricePredictorUITests.m */,
+				427CA7251EE7977300273973 /* Info.plist */,
+			);
+			path = PricePredictorUITests;
+			sourceTree = "<group>";
+		};
+		427CA7311EE797F900273973 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				427CA7321EE797F900273973 /* CoreML.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		427CA7331EE7981400273973 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				427CA7341EE7987F00273973 /* MarsHabitatPricer.mlmodel */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		427CA6FB1EE7977200273973 /* PricePredictor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 427CA7281EE7977300273973 /* Build configuration list for PBXNativeTarget "PricePredictor" */;
+			buildPhases = (
+				427CA6F81EE7977200273973 /* Sources */,
+				427CA6F91EE7977200273973 /* Frameworks */,
+				427CA6FA1EE7977200273973 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PricePredictor;
+			productName = PricePredictor;
+			productReference = 427CA6FC1EE7977200273973 /* PricePredictor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		427CA7131EE7977300273973 /* PricePredictorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 427CA72B1EE7977300273973 /* Build configuration list for PBXNativeTarget "PricePredictorTests" */;
+			buildPhases = (
+				427CA7101EE7977300273973 /* Sources */,
+				427CA7111EE7977300273973 /* Frameworks */,
+				427CA7121EE7977300273973 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				427CA7161EE7977300273973 /* PBXTargetDependency */,
+			);
+			name = PricePredictorTests;
+			productName = PricePredictorTests;
+			productReference = 427CA7141EE7977300273973 /* PricePredictorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		427CA71E1EE7977300273973 /* PricePredictorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 427CA72E1EE7977300273973 /* Build configuration list for PBXNativeTarget "PricePredictorUITests" */;
+			buildPhases = (
+				427CA71B1EE7977300273973 /* Sources */,
+				427CA71C1EE7977300273973 /* Frameworks */,
+				427CA71D1EE7977300273973 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				427CA7211EE7977300273973 /* PBXTargetDependency */,
+			);
+			name = PricePredictorUITests;
+			productName = PricePredictorUITests;
+			productReference = 427CA71F1EE7977300273973 /* PricePredictorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		427CA6F41EE7977200273973 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = iwar;
+				TargetAttributes = {
+					427CA6FB1EE7977200273973 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					427CA7131EE7977300273973 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 427CA6FB1EE7977200273973;
+					};
+					427CA71E1EE7977300273973 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 427CA6FB1EE7977200273973;
+					};
+				};
+			};
+			buildConfigurationList = 427CA6F71EE7977200273973 /* Build configuration list for PBXProject "PricePredictor" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 427CA6F31EE7977200273973;
+			productRefGroup = 427CA6FD1EE7977200273973 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				427CA6FB1EE7977200273973 /* PricePredictor */,
+				427CA7131EE7977300273973 /* PricePredictorTests */,
+				427CA71E1EE7977300273973 /* PricePredictorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		427CA6FA1EE7977200273973 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				427CA70C1EE7977200273973 /* LaunchScreen.storyboard in Resources */,
+				427CA7091EE7977200273973 /* Assets.xcassets in Resources */,
+				427CA7071EE7977200273973 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		427CA7121EE7977300273973 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		427CA71D1EE7977300273973 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		427CA6F81EE7977200273973 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				427CA7041EE7977200273973 /* ViewController.m in Sources */,
+				427CA70F1EE7977200273973 /* main.m in Sources */,
+				427CA7391EE79D7B00273973 /* MarsHabitatPricer.mlmodel in Sources */,
+				427CA7011EE7977200273973 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		427CA7101EE7977300273973 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				427CA7191EE7977300273973 /* PricePredictorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		427CA71B1EE7977300273973 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				427CA7241EE7977300273973 /* PricePredictorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		427CA7161EE7977300273973 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 427CA6FB1EE7977200273973 /* PricePredictor */;
+			targetProxy = 427CA7151EE7977300273973 /* PBXContainerItemProxy */;
+		};
+		427CA7211EE7977300273973 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 427CA6FB1EE7977200273973 /* PricePredictor */;
+			targetProxy = 427CA7201EE7977300273973 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		427CA7051EE7977200273973 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				427CA7061EE7977200273973 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		427CA70A1EE7977200273973 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				427CA70B1EE7977200273973 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		427CA7261EE7977300273973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		427CA7271EE7977300273973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		427CA7291EE7977300273973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F2ZTMF6J7Z;
+				INFOPLIST_FILE = PricePredictor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chelizi.PricePredictor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		427CA72A1EE7977300273973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F2ZTMF6J7Z;
+				INFOPLIST_FILE = PricePredictor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chelizi.PricePredictor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		427CA72C1EE7977300273973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = F2ZTMF6J7Z;
+				INFOPLIST_FILE = PricePredictorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chelizi.PricePredictorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PricePredictor.app/PricePredictor";
+			};
+			name = Debug;
+		};
+		427CA72D1EE7977300273973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = F2ZTMF6J7Z;
+				INFOPLIST_FILE = PricePredictorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chelizi.PricePredictorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PricePredictor.app/PricePredictor";
+			};
+			name = Release;
+		};
+		427CA72F1EE7977300273973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = F2ZTMF6J7Z;
+				INFOPLIST_FILE = PricePredictorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chelizi.PricePredictorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PricePredictor;
+			};
+			name = Debug;
+		};
+		427CA7301EE7977300273973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = F2ZTMF6J7Z;
+				INFOPLIST_FILE = PricePredictorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chelizi.PricePredictorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PricePredictor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		427CA6F71EE7977200273973 /* Build configuration list for PBXProject "PricePredictor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				427CA7261EE7977300273973 /* Debug */,
+				427CA7271EE7977300273973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		427CA7281EE7977300273973 /* Build configuration list for PBXNativeTarget "PricePredictor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				427CA7291EE7977300273973 /* Debug */,
+				427CA72A1EE7977300273973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		427CA72B1EE7977300273973 /* Build configuration list for PBXNativeTarget "PricePredictorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				427CA72C1EE7977300273973 /* Debug */,
+				427CA72D1EE7977300273973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		427CA72E1EE7977300273973 /* Build configuration list for PBXNativeTarget "PricePredictorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				427CA72F1EE7977300273973 /* Debug */,
+				427CA7301EE7977300273973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 427CA6F41EE7977200273973 /* Project object */;
+}
