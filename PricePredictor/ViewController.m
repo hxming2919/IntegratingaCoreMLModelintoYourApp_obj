@@ -30,6 +30,8 @@
     [super viewDidLoad];
     [self updatePredictedPrice];
     
+    // 我是nb分支，我是第一次提交
+    
 }
 
 
