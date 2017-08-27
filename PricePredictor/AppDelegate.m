@@ -21,6 +21,7 @@
     
     // demo
     // hxming
+    // 我是nb2分支
     return YES;
 }
 
