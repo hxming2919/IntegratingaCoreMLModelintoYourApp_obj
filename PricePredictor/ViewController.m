@@ -30,6 +30,8 @@
     [super viewDidLoad];
     [self updatePredictedPrice];
     
+    // 我是nb2 branch
+    
 }
 
 
@@ -38,6 +40,8 @@
     // Dispose of any resources that can be recreated.
     
     // 我是master
+    
+    // 我是nb2 branch ，我第二次提交
 }
 
 
