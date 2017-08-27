@@ -30,6 +30,8 @@
     [super viewDidLoad];
     [self updatePredictedPrice];
     
+    // 我是nb2 branch
+    
 }
 
 
